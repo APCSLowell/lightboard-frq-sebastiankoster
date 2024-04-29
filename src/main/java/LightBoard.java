@@ -11,7 +11,7 @@ public class LightBoard
   public LightBoard(int numRows, int numCols)
   {
     lights = new boolean[numRows][numCols];
-    for(int[] x : lights)
+    for(boolean[] x : lights)
       for(boolean b : lights[x])
         b = (Math.random()<0.4);
   }
